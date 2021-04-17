@@ -5,7 +5,7 @@ Simple project I used to learn more about computer architecture
 * ISA: https://justinmeiners.github.io/lc3-vm/supplies/lc3-isa.pdf
 * Slightly modified (purpose of this project/article read was mainly to learn a bit more about low-level details, not to write a VM), but I still think it can't hurt to upload it (if I ever wanna look back at the resources I used to learn, for example)
 * Intended as the final project for Harvard's online course CS50x 
-* Most code, besides the platform specific one (next bullet), I wrote by myself after reading the theory explained in the article. After that, I looked at the code written by the article author and improved mine (wouldn't learn if I'd just write programs without looking at the code written by more experienced people, ex. I didn't know about enums before)
+* Most code, besides the platform specific one (see next bullet), I wrote by myself after reading the theory explained in the article. After that, I looked at the code written by the article author and improved mine (wouldn't learn if I'd just write programs without looking at the code written by more experienced people, ex. I didn't know about enums before)
 * I copied all the platform specific code from the linked website (as said have mostly done this project/read the mentioned article to learn more low level details, not to write a fantastic VM or to learn about tedious platform specific code), also I'm still a noob
 
 * Few questions/confusions I have (just documenting once again):
