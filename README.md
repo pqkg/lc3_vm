@@ -7,9 +7,9 @@ Simple project I used to learn more about computer architecture
 * Intended as the final project for Harvard's online course CS50x 
 * Most code, besides the platform specific one (see next bullet), I wrote by myself after reading the theory explained in the article. After that, I looked at the code written by the article author and improved mine (wouldn't learn if I'd just write programs without looking at the code written by more experienced people, ex. I didn't know about enums before)
 * I copied all the platform specific code from the linked website (as said have mostly done this project/read the mentioned article to learn more low level details, not to write a fantastic VM or to learn about tedious platform specific code), also I'm still a noob<br/><br/>
-Few questions/confusions I have (just documenting, as said in case I ever want to revisit):
-* Why not use signed numbers instead of uints, as then C would take care of things like sign extending (I assume)?
-* Why is the LC-3 not byte addressable?
-* Why does the specification say to add PC offsets to the already incremented PC, instead of the current one?<br/><br/>
+* Few questions/confusions I have (just documenting, as said in case I ever want to revisit):
+  -Why not use signed numbers instead of uints, as then C would take care of things like sign extending (I assume)?
+  -Why is the LC-3 not byte addressable?
+  -Why does the specification say to add PC offsets to the already incremented PC, instead of the current one?<br/><br/>
 * Finally, a huge thanks to David Malan, Brian Yu, the rest of the CS50 staff, Justin Meiners and anyone else who contributed to CS50 or the linked article
  
