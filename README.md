@@ -1,5 +1,5 @@
 # lc3_vm
-Simple project I used to learn more about computer architecture
+Simple project I (partly) wrote in order to learn more about computer architecture
 
 * Based on/resource I used: https://justinmeiners.github.io/lc3-vm/
 * ISA: https://justinmeiners.github.io/lc3-vm/supplies/lc3-isa.pdf
