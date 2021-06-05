@@ -1,7 +1,5 @@
 /* Few questions/confusions I have (just documenting):
- * Why not use signed numbers instead of uints, as then C would take care of things like sign extending (I assume)?
  * Why is the LC-3 not byte addressable?
- * Why does the specification say to add offsets to the already incremented PC, instead of the current one?
  */
 
 #include <stdio.h>
@@ -132,7 +130,7 @@ void read_image_file(FILE* file)
         uint16_t *p = &(memory[origin]);
         size_t read = fread(p, sizeof(uint16_t), max_read, file);
 
-        /* convert to little endian as file was big endian */
+        /* convert to little endian as file was big endian most likely */
         while (read-- > 0) {
                 *p = swap16(*p);
                 ++p; /* works because is pointer to 16 bit object */
